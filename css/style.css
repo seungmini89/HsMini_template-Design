@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+body {
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.429);
+}
+
+.tit h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.modalInner {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 760px;
+  height: 86%;
+  overflow-y: scroll;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+  border: 3px solid #02006c;
+}
+.modalInner::-webkit-scrollbar {
+  width: 8px;
+}
+.modalInner::-webkit-scrollbar-thumb {
+  background: rgb(255, 29, 29);
+  border-radius: 6px;
+}
+.modalInner::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */
